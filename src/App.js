@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import LoginPage from './components/LoginPage';
 import './App.css';
+
+const login = {
+  text: 'Login Page',
+  btn: 'Login',
+  a: 'Forgot Password',
+}
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <LoginPage text={login.text} btn={login.btn} a={login.a} input={login.input}/>
     </div>
   );
 }

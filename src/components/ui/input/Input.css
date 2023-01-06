@@ -1,0 +1,8 @@
+input {
+    background-color: rgb(31, 54, 36);
+    width: 220px;
+    height: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    border: solid purple;
+  }
