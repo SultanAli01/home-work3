@@ -1,6 +1,6 @@
 import "./Button.css"
 const Button = (props) => {
-    return   <button class="btn" type="reset" >{props.btn}</button>
+    return   <button className="btn" type="submit" >{props.btn}</button>
 }
 
 export default Button

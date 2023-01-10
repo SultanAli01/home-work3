@@ -1,5 +1,5 @@
 import './Input.css'
-const Input = (props) => {
+const Input = () => {
     return(
         <div>
         <input className="input" type="text" placeholder="" />
